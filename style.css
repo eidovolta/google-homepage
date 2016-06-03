@@ -1,0 +1,87 @@
+a {
+	text-decoration: none;
+	font-size: 13px;
+	color: black;
+	font-family: arial,sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+#squares {
+	background-image: url(https://raw.githubusercontent.com/arioth/the-odin-project/master/google-homepage/images.png);
+    background-size: 112px 1828px;
+    background-position: -69px -854px;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+
+#bell {
+	height: 18px;
+	width: 20px;
+	vertical-align: middle;
+}
+
+#avatar {
+	height: 35px;
+	width: 35px;
+	vertical-align: middle;
+}
+
+.navbar {
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 10px;
+	word-spacing: 10px;
+}
+
+#searchbar {
+	height: 35px;
+	width: 555px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+}
+
+input#searchbar:focus {
+	outline-color: blue;
+	outline-width: 2px;
+}
+
+#googleimg {
+	height: 92px;
+	width: 272px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+#searchbox {
+	padding-top: 10%;
+}
+
+#buttons {
+	height: 38px;
+	width: 120px;
+	padding-right: 10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.bottomnav {
+	position: absolute;
+	background-color: lightgray;
+	bottom: 0px;
+	width: 100%;
+	height: 40px;
+	margin-left: -8px;
+}
+#left {
+	padding-left: 40px;
+	text-align: left;
+}
